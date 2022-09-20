@@ -41,7 +41,7 @@ class ProductCard extends StatelessWidget {
               const SizedBox(height: 5),
 
               Container(
-                height: getProportionateScreenHeight(60),
+                height: getProportionateScreenWidth(60),
                 padding: EdgeInsets.symmetric(
                     horizontal: getProportionateScreenWidth(10)),
                 child: Column(

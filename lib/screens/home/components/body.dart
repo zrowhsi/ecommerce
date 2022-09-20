@@ -12,6 +12,7 @@ import 'package:http/http.dart' as http;
 
 import 'categories.dart';
 import 'home_carousel.dart';
+import 'itemwidget.dart';
 import 'new_product.dart';
 import 'section_title.dart';
 
@@ -81,7 +82,16 @@ class _HomeBodyState extends State<HomeBody> {
           SizedBox(height: getProportionateScreenWidth(10)),
           BestProduct(bestProduct: bestSellingList),
           SizedBox(height: getProportionateScreenWidth(10)),
-          RecommendationProduct(recommendationList: recommendationList),
+          Container(
+            alignment: Alignment.centerLeft,
+            margin: const EdgeInsets.symmetric(vertical: 20, horizontal: 10),
+            child: const Text(
+              "RECOMMENDATION",
+              style: TextStyle(fontWeight: FontWeight.bold),
+            ),
+          ),
+          ItemWidget(recommendationList: recommendationList),
+          // RecommendationProduct(recommendationList: recommendationList),
         ],
       ),
     );
