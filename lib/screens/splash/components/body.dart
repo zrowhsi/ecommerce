@@ -1,3 +1,4 @@
+import 'package:ecommerce/admin/screens/admin_screen.dart';
 import 'package:ecommerce/constants/color_theme_const.dart';
 import 'package:ecommerce/constants/size_config.dart';
 import 'package:ecommerce/screens/sign_in/signin_screen.dart';
@@ -73,8 +74,12 @@ class _SplashBodyState extends State<SplashBody> {
                     text: 'Continue',
                     press: () {
                       // print("pushed route name");
-                      Navigator.pushNamed(context, SignInScreen.routeName);
+                      Navigator.pushNamed(context, AdminScreen.routeName);
                     },
+                    // press: () {
+                    //   // print("pushed route name");
+                    //   Navigator.pushNamed(context, SignInScreen.routeName);
+                    // },
                   ),
                   const Spacer(),
                 ],

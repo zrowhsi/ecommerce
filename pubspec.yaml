@@ -39,6 +39,9 @@ dependencies:
   carousel_slider: ^4.1.1
   http: ^0.13.5
   google_fonts: ^3.0.1
+  dotted_border: ^2.0.0+2
+  file_picker: ^5.2.0+1
+  cloudinary_public: ^0.13.0
 
 dev_dependencies:
   flutter_test:
@@ -67,6 +70,7 @@ flutter:
     - assets/images/welcome_image.png
     - assets/images/welcome_image2.png
     - assets/images/welcome_image3.jpg
+    - assets/images/ib.png
     # - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

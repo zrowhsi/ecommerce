@@ -13,6 +13,19 @@ const appPrimaryGradientColor = LinearGradient(
     Color.fromARGB(255, 74, 90, 229)
   ],
 );
+const appBarGradient = LinearGradient(
+  colors: [
+    Color.fromARGB(255, 69, 88, 192),
+    Color.fromARGB(255, 128, 141, 211)
+  ],
+  stops: [0.5, 1.0],
+);
+
+const secondaryColor = Color.fromRGBO(255, 153, 0, 1);
+const backgroundColor = Colors.white;
+const Color greyBackgroundCOlor = Color(0xffebecee);
+var selectedNavBarColor = Colors.indigoAccent;
+const unselectedNavBarColor = Colors.black87;
 
 const appSecondaryColor = Colors.redAccent;
 const appTextColor = Color(0xFF757575);
