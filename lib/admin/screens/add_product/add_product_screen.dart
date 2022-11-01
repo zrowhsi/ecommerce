@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import '../../../constants/color_theme_const.dart';
 
 import 'components/body.dart';
+import 'components/image_upload.dart';
 
 class AddProductScreen extends StatefulWidget {
   static String routeName = "/add-product";
@@ -35,6 +36,7 @@ class _AddProductScreenState extends State<AddProductScreen> {
         ),
       ),
       body: const AddProductBody(),
+      // body: ImageUpload(),
     );
   }
 }
